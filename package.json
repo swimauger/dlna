@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "debug": "node --watch out/server.js",
+    "start": "node out/server.js",
+    "watch": "tsc --build --watch"
+  },
+  "dependencies": {
+    "cheerio": "latest",
+    "edge.js": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "typescript": "latest"
+  }
+}
